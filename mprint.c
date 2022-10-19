@@ -1,5 +1,7 @@
 #include <termios.h>
-
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 struct termios old, new;
 
